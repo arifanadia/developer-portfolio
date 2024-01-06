@@ -1,59 +1,148 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700px;
-    padding: 18px 35px;
+    padding: 13px 28px;
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
-.nav-tittle{
+
+.nav-tittle {
 
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
     font-weight: 400;
-    
+
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 20px 20px 0 130px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner-content {
+    max-width: 500px;
+
+}
+
+
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-tittle {
+    color: #181818;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-tittle {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    width: 700px;
+    color: #757575;
+    text-align: center;
+    font-size: 15px
+}
+
+/* about section styles */
+.about {
+    padding: 120px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    margin: 120px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+    
+
+}
+.info-tittle{
+    color:  #757575;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    margin-top: 3px;
 }
