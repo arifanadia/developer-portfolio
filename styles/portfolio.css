@@ -244,8 +244,8 @@ footer {
 .footer-column {
     width: 50%;
 }
-.social-links{
-    gap:30px;
+.social-links a{
+    margin-left: 25px;
 }
 
 .contact input[type="text"],.contact input[type="email"],
@@ -258,4 +258,7 @@ textarea {
     background: #FFF;
     border: 0;
     width: 100%;
+}
+#footer-para{
+    text-align: left;
 }
